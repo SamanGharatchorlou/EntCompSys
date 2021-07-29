@@ -1,0 +1,127 @@
+﻿  Main.cpp
+  pch.cpp
+  Animation.cpp
+  Animator.cpp
+  Audio.cpp
+  AudioManager.cpp
+  Channel.cpp
+  SoundController.cpp
+  Collider.cpp
+  QuadCollider.cpp
+  DebugDraw.cpp
+  FrameRateController.cpp
+  Logging.cpp
+  MemTrack.cpp
+  PerformanceProfiler.cpp
+  UIEditor.cpp
+  Dispatcher.cpp
+  Camera.cpp
+  CameraShake.cpp
+  GameData.cpp
+  LoadingBar.cpp
+  LoadingManager.cpp
+  GameController.cpp
+  GameSetup.cpp
+  GameState.cpp
+  PauseState.cpp
+  PreGameState.cpp
+  Renderer.cpp
+  RenderManager.cpp
+  RenderPacket.cpp
+  Texture.cpp
+  TextureManager.cpp
+  TextureMap.cpp
+  TileSet.cpp
+  Button.cpp
+  Cursor.cpp
+  InputManager.cpp
+c:\users\saman\documents\coding\cplusplus\entcompsys\gravityproject\gravityproject\srac\input\inputmanager.cpp(87): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Physics.cpp
+  Attributes.cpp
+  FileManager.cpp
+  StatReader.cpp
+  TextFileReader.cpp
+  XMLNode.cpp
+  XMLParser.cpp
+c:\users\saman\documents\coding\cplusplus\entcompsys\gravityproject\gravityproject\sdl2\rapidxml\include\rapidxml_utils.hpp(40): warning C4244: 'initializing': conversion from 'std::streamoff' to 'size_t', possible loss of data
+  c:\users\saman\documents\coding\cplusplus\entcompsys\gravityproject\gravityproject\sdl2\rapidxml\include\rapidxml_utils.hpp(28): note: while compiling class template member function 'rapidxml::file<char>::file(const char *)'
+  c:\users\saman\documents\coding\cplusplus\entcompsys\gravityproject\gravityproject\srac\system\files\xmlparser.cpp(13): note: see reference to function template instantiation 'rapidxml::file<char>::file(const char *)' being compiled
+  c:\users\saman\documents\coding\cplusplus\entcompsys\gravityproject\gravityproject\srac\system\files\xmlparser.cpp(13): note: see reference to class template instantiation 'rapidxml::file<char>' being compiled
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(232): note: see reference to function template instantiation 'void std::_Uninitialized_backout_al<_FwdIt,_Alloc>::_Emplace_back<std::experimental::filesystem::v1::path>(std::experimental::filesystem::v1::path &&)' being compiled
+          with
+          [
+              _FwdIt=std::experimental::filesystem::v1::path *,
+              _Alloc=std::allocator<std::experimental::filesystem::v1::path>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(232): note: see reference to function template instantiation 'void std::_Uninitialized_backout_al<_FwdIt,_Alloc>::_Emplace_back<std::experimental::filesystem::v1::path>(std::experimental::filesystem::v1::path &&)' being compiled
+          with
+          [
+              _FwdIt=std::experimental::filesystem::v1::path *,
+              _Alloc=std::allocator<std::experimental::filesystem::v1::path>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(259): note: see reference to function template instantiation '_FwdIt std::_Uninitialized_move_al_unchecked<_Ty*,_Ty*,_Alloc>(_InIt,const _InIt,const _FwdIt,_Alloc &,std::_General_ptr_iterator_tag,std::_Any_tag)' being compiled
+          with
+          [
+              _FwdIt=std::experimental::filesystem::v1::path *,
+              _Ty=std::experimental::filesystem::v1::path,
+              _Alloc=std::allocator<std::experimental::filesystem::v1::path>,
+              _InIt=std::experimental::filesystem::v1::path *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1828): note: see reference to function template instantiation '_FwdIt *std::_Uninitialized_move<std::experimental::filesystem::v1::path*,std::experimental::filesystem::v1::path*,std::allocator<_Ty>>(const _InIt,const _InIt,_FwdIt,_Alloc &)' being compiled
+          with
+          [
+              _FwdIt=std::experimental::filesystem::v1::path *,
+              _Ty=std::experimental::filesystem::v1::path,
+              _InIt=std::experimental::filesystem::v1::path *,
+              _Alloc=std::allocator<std::experimental::filesystem::v1::path>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1827): note: while compiling class template member function 'std::experimental::filesystem::v1::path *std::vector<std::experimental::filesystem::v1::path,std::allocator<_Ty>>::_Umove(std::experimental::filesystem::v1::path *,std::experimental::filesystem::v1::path *,std::experimental::filesystem::v1::path *)'
+          with
+          [
+              _Ty=std::experimental::filesystem::v1::path
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(970): note: see reference to function template instantiation 'std::experimental::filesystem::v1::path *std::vector<std::experimental::filesystem::v1::path,std::allocator<_Ty>>::_Umove(std::experimental::filesystem::v1::path *,std::experimental::filesystem::v1::path *,std::experimental::filesystem::v1::path *)' being compiled
+          with
+          [
+              _Ty=std::experimental::filesystem::v1::path
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\experimental\filesystem(2192): note: see reference to class template instantiation 'std::vector<std::experimental::filesystem::v1::path,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=std::experimental::filesystem::v1::path
+          ]
+  Window.cpp
+  UIBox.cpp
+  UIButton.cpp
+  UIElement.cpp
+  UISlider.cpp
+  UISwitch.cpp
+  UITextBox.cpp
+  UIWindow.cpp
+  ScreenBuilder.cpp
+  ScreenController.cpp
+  ScreenLayers.cpp
+  ScreenReader.cpp
+  GameOverScreen.cpp
+  GameScreen.cpp
+  LoadingScreen.cpp
+  PauseScreen.cpp
+  Screen.cpp
+  SettingsScreen.cpp
+  Font.cpp
+  Text.cpp
+  UIEventHandler.cpp
+  UIManager.cpp
+  BasicString.cpp
+  Helpers.cpp
+c:\users\saman\documents\coding\cplusplus\entcompsys\gravityproject\gravityproject\srac\utilities\helpers.cpp(17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\saman\documents\coding\cplusplus\entcompsys\gravityproject\gravityproject\srac\utilities\helpers.cpp(18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  StringMap.cpp
+  NSISFileOutput.cpp
+  ScreenPool.cpp
+  RenderColour.cpp
+  GravityProject.vcxproj -> C:\Users\Saman\Documents\Coding\Cplusplus\EntCompSys\GravityProject\Debug\GravityProject.exe

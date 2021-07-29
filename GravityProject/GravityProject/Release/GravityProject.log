@@ -1,0 +1,144 @@
+﻿  Main.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\source\pch.h(39): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+  pch.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\source\pch.h(39): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+  Animation.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\animations\animation.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Animator.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\animations\animator.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Audio.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\audio\audio.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  AudioManager.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\audio\audiomanager.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Channel.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\audio\channel.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  SoundController.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\audio\soundcontroller.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Collider.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\colliders\collider.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  QuadCollider.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\colliders\quadcollider.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  DebugDraw.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\debug\debugdraw.cpp(2): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  FrameRateController.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\debug\frameratecontroller.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Logging.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\debug\logging.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  MemTrack.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\debug\memtrack.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  PerformanceProfiler.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\debug\performanceprofiler.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  UIEditor.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\debug\uieditor.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Dispatcher.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\events\dispatcher.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Camera.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\game\camera\camera.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  CameraShake.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\game\camera\camerashake.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  GameData.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\game\data\gamedata.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  LoadingBar.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\game\data\loadingbar.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  LoadingManager.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\game\data\loadingmanager.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  GameController.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\game\gamecontroller.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  GameSetup.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\game\gamesetup.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  GameState.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\game\gamestates\gamestate.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  PauseState.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\game\gamestates\pausestate.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  PreGameState.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\game\gamestates\pregamestate.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Renderer.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\graphics\renderer.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  RenderManager.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\graphics\rendermanager.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  RenderPacket.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\graphics\renderpacket.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Texture.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\graphics\texture.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  TextureManager.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\graphics\texturemanager.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  TextureMap.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\graphics\texturemap.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  TileSet.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\graphics\tileset.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Button.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\input\button.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Cursor.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\input\cursor.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  InputManager.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\input\inputmanager.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Physics.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\physics\physics.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Attributes.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\system\files\attributes.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  FileManager.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\system\files\filemanager.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  StatReader.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\system\files\statreader.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  TextFileReader.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\system\files\textfilereader.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  XMLNode.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\system\files\xmlnode.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  XMLParser.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\system\files\xmlparser.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Window.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\system\window.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  UIBox.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\elements\uibox.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  UIButton.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\elements\uibutton.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  UIElement.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\elements\uielement.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  UISlider.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\elements\uislider.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  UISwitch.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\elements\uiswitch.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  UITextBox.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\elements\uitextbox.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  UIWindow.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\elements\uiwindow.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  ScreenBuilder.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\screenbuilder.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  ScreenController.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\screencontroller.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  ScreenLayers.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\screenlayers.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  ScreenReader.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\screenreader.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  GameOverScreen.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\screens\gameoverscreen.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  GameScreen.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\screens\gamescreen.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  LoadingScreen.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\screens\loadingscreen.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  PauseScreen.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\screens\pausescreen.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Screen.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\screens\screen.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  SettingsScreen.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\screens\settingsscreen.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Font.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\text\font.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Text.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\text\text.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  UIEventHandler.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\uieventhandler.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  UIManager.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\ui\uimanager.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  BasicString.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\utilities\basicstring.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  Helpers.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\utilities\helpers.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  StringMap.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\utilities\maps\stringmap.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  NSISFileOutput.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\utilities\nsisfileoutput.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  ScreenPool.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\utilities\pools\screenpool.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory
+  RenderColour.cpp
+c:\users\saman\documents\coding\cplusplus\gravityproject\gravityproject\srac\utilities\rendercolour.cpp(1): fatal error C1083: Cannot open include file: 'pch.h': No such file or directory

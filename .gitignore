@@ -36,8 +36,8 @@
 GravityProject/Release
 GravityProject/Debug
 GravityProject/.vs
-GravityProject/GravityProject/Debug
-GravityProject/GravityProject/Release
-GravityProject/GravityProject/GravityProject.vcxproj
-GravityProject/GravityProject/GravityProject.vcxproj.filters
-GravityProject/GravityProject/GravityProject.vcxproj.user
+#GravityProject/GravityProject/Debug
+#GravityProject/GravityProject/Release
+#GravityProject/GravityProject/GravityProject.vcxproj
+#GravityProject/GravityProject/GravityProject.vcxproj.filters
+#GravityProject/GravityProject/GravityProject.vcxproj.user

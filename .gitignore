@@ -33,9 +33,9 @@
 
 
 # Additions
-GravityProject/Release
-GravityProject/Debug
-GravityProject/.vs
+#GravityProject/Release
+#GravityProject/Debug
+#GravityProject/.vs
 #GravityProject/GravityProject/Debug
 #GravityProject/GravityProject/Release
 #GravityProject/GravityProject/GravityProject.vcxproj

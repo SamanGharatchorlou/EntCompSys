@@ -1,127 +1,336 @@
-﻿  Main.cpp
-  pch.cpp
-  Animation.cpp
-  Animator.cpp
-  Audio.cpp
-  AudioManager.cpp
-  Channel.cpp
-  SoundController.cpp
-  Collider.cpp
-  QuadCollider.cpp
-  DebugDraw.cpp
-  FrameRateController.cpp
-  Logging.cpp
-  MemTrack.cpp
-  PerformanceProfiler.cpp
-  UIEditor.cpp
-  Dispatcher.cpp
-  Camera.cpp
-  CameraShake.cpp
-  GameData.cpp
-  LoadingBar.cpp
-  LoadingManager.cpp
-  GameController.cpp
-  GameSetup.cpp
-  GameState.cpp
-  PauseState.cpp
-  PreGameState.cpp
-  Renderer.cpp
-  RenderManager.cpp
-  RenderPacket.cpp
-  Texture.cpp
-  TextureManager.cpp
-  TextureMap.cpp
-  TileSet.cpp
-  Button.cpp
-  Cursor.cpp
-  InputManager.cpp
-c:\users\saman\documents\coding\cplusplus\entcompsys\gravityproject\gravityproject\srac\input\inputmanager.cpp(87): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-  Physics.cpp
-  Attributes.cpp
-  FileManager.cpp
-  StatReader.cpp
-  TextFileReader.cpp
-  XMLNode.cpp
-  XMLParser.cpp
-c:\users\saman\documents\coding\cplusplus\entcompsys\gravityproject\gravityproject\sdl2\rapidxml\include\rapidxml_utils.hpp(40): warning C4244: 'initializing': conversion from 'std::streamoff' to 'size_t', possible loss of data
-  c:\users\saman\documents\coding\cplusplus\entcompsys\gravityproject\gravityproject\sdl2\rapidxml\include\rapidxml_utils.hpp(28): note: while compiling class template member function 'rapidxml::file<char>::file(const char *)'
-  c:\users\saman\documents\coding\cplusplus\entcompsys\gravityproject\gravityproject\srac\system\files\xmlparser.cpp(13): note: see reference to function template instantiation 'rapidxml::file<char>::file(const char *)' being compiled
-  c:\users\saman\documents\coding\cplusplus\entcompsys\gravityproject\gravityproject\srac\system\files\xmlparser.cpp(13): note: see reference to class template instantiation 'rapidxml::file<char>' being compiled
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(232): note: see reference to function template instantiation 'void std::_Uninitialized_backout_al<_FwdIt,_Alloc>::_Emplace_back<std::experimental::filesystem::v1::path>(std::experimental::filesystem::v1::path &&)' being compiled
-          with
-          [
-              _FwdIt=std::experimental::filesystem::v1::path *,
-              _Alloc=std::allocator<std::experimental::filesystem::v1::path>
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(232): note: see reference to function template instantiation 'void std::_Uninitialized_backout_al<_FwdIt,_Alloc>::_Emplace_back<std::experimental::filesystem::v1::path>(std::experimental::filesystem::v1::path &&)' being compiled
-          with
-          [
-              _FwdIt=std::experimental::filesystem::v1::path *,
-              _Alloc=std::allocator<std::experimental::filesystem::v1::path>
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(259): note: see reference to function template instantiation '_FwdIt std::_Uninitialized_move_al_unchecked<_Ty*,_Ty*,_Alloc>(_InIt,const _InIt,const _FwdIt,_Alloc &,std::_General_ptr_iterator_tag,std::_Any_tag)' being compiled
-          with
-          [
-              _FwdIt=std::experimental::filesystem::v1::path *,
-              _Ty=std::experimental::filesystem::v1::path,
-              _Alloc=std::allocator<std::experimental::filesystem::v1::path>,
-              _InIt=std::experimental::filesystem::v1::path *
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1828): note: see reference to function template instantiation '_FwdIt *std::_Uninitialized_move<std::experimental::filesystem::v1::path*,std::experimental::filesystem::v1::path*,std::allocator<_Ty>>(const _InIt,const _InIt,_FwdIt,_Alloc &)' being compiled
-          with
-          [
-              _FwdIt=std::experimental::filesystem::v1::path *,
-              _Ty=std::experimental::filesystem::v1::path,
-              _InIt=std::experimental::filesystem::v1::path *,
-              _Alloc=std::allocator<std::experimental::filesystem::v1::path>
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1827): note: while compiling class template member function 'std::experimental::filesystem::v1::path *std::vector<std::experimental::filesystem::v1::path,std::allocator<_Ty>>::_Umove(std::experimental::filesystem::v1::path *,std::experimental::filesystem::v1::path *,std::experimental::filesystem::v1::path *)'
-          with
-          [
-              _Ty=std::experimental::filesystem::v1::path
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(970): note: see reference to function template instantiation 'std::experimental::filesystem::v1::path *std::vector<std::experimental::filesystem::v1::path,std::allocator<_Ty>>::_Umove(std::experimental::filesystem::v1::path *,std::experimental::filesystem::v1::path *,std::experimental::filesystem::v1::path *)' being compiled
-          with
-          [
-              _Ty=std::experimental::filesystem::v1::path
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\experimental\filesystem(2192): note: see reference to class template instantiation 'std::vector<std::experimental::filesystem::v1::path,std::allocator<_Ty>>' being compiled
-          with
-          [
-              _Ty=std::experimental::filesystem::v1::path
-          ]
-  Window.cpp
-  UIBox.cpp
-  UIButton.cpp
-  UIElement.cpp
-  UISlider.cpp
-  UISwitch.cpp
-  UITextBox.cpp
-  UIWindow.cpp
-  ScreenBuilder.cpp
-  ScreenController.cpp
-  ScreenLayers.cpp
-  ScreenReader.cpp
-  GameOverScreen.cpp
-  GameScreen.cpp
-  LoadingScreen.cpp
-  PauseScreen.cpp
-  Screen.cpp
-  SettingsScreen.cpp
-  Font.cpp
-  Text.cpp
-  UIEventHandler.cpp
-  UIManager.cpp
-  BasicString.cpp
-  Helpers.cpp
-c:\users\saman\documents\coding\cplusplus\entcompsys\gravityproject\gravityproject\srac\utilities\helpers.cpp(17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\saman\documents\coding\cplusplus\entcompsys\gravityproject\gravityproject\srac\utilities\helpers.cpp(18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  StringMap.cpp
-  NSISFileOutput.cpp
-  ScreenPool.cpp
-  RenderColour.cpp
-  GravityProject.vcxproj -> C:\Users\Saman\Documents\Coding\Cplusplus\EntCompSys\GravityProject\Debug\GravityProject.exe
+﻿Build started 30/07/2021 10:11:06.
+     1>Project "C:\Users\Saman\Documents\Programming\Games\SDL\EntCompSys\GravityProject\GravityProject\GravityProject.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\GravityProject.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /IC:\Users\Saman\Documents\Programming\Games\SDL\EntCompSys\GravityProject\GravityProject /IC:\Users\Saman\Documents\Programming\Games\SDL\EntCompSys\GravityProject\GravityProject\Source /IC:\Users\Saman\Documents\Programming\Games\SDL\EntCompSys\GravityProject\GravityProject\SRAC /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"pch.h" /Fp"Debug\GravityProject.pch" /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Source\Main.cpp Source\pch.cpp SRAC\Animations\Animation.cpp SRAC\Animations\Animator.cpp SRAC\Audio\Audio.cpp SRAC\Audio\AudioManager.cpp SRAC\Audio\Channel.cpp SRAC\Audio\SoundController.cpp SRAC\Colliders\Collider.cpp SRAC\Colliders\QuadCollider.cpp SRAC\Debug\DebugDraw.cpp SRAC\Debug\FrameRateController.cpp SRAC\Debug\Logging.cpp SRAC\Debug\MemTrack.cpp SRAC\Debug\PerformanceProfiler.cpp SRAC\Debug\UIEditor.cpp SRAC\Events\Dispatcher.cpp SRAC\Game\Camera\Camera.cpp SRAC\Game\Camera\CameraShake.cpp SRAC\Game\Data\GameData.cpp SRAC\Game\Data\LoadingBar.cpp SRAC\Game\Data\LoadingManager.cpp SRAC\Game\GameController.cpp SRAC\Game\GameSetup.cpp SRAC\Game\GameStates\GameState.cpp SRAC\Game\GameStates\PauseState.cpp SRAC\Game\GameStates\PreGameState.cpp SRAC\Graphics\Renderer.cpp SRAC\Graphics\RenderManager.cpp SRAC\Graphics\RenderPacket.cpp SRAC\Graphics\Texture.cpp SRAC\Graphics\TextureManager.cpp SRAC\Graphics\TextureMap.cpp SRAC\Graphics\TileSet.cpp SRAC\Input\Button.cpp SRAC\Input\Cursor.cpp SRAC\Input\InputManager.cpp SRAC\Physics\Physics.cpp SRAC\System\Files\Attributes.cpp SRAC\System\Files\FileManager.cpp SRAC\System\Files\StatReader.cpp SRAC\System\Files\TextFileReader.cpp SRAC\System\Files\XMLNode.cpp SRAC\System\Files\XMLParser.cpp SRAC\System\Window.cpp SRAC\UI\Elements\UIBox.cpp SRAC\UI\Elements\UIButton.cpp SRAC\UI\Elements\UIElement.cpp SRAC\UI\Elements\UISlider.cpp SRAC\UI\Elements\UISwitch.cpp SRAC\UI\Elements\UITextBox.cpp SRAC\UI\Elements\UIWindow.cpp SRAC\UI\ScreenBuilder.cpp SRAC\UI\ScreenController.cpp SRAC\UI\ScreenLayers.cpp SRAC\UI\ScreenReader.cpp SRAC\UI\Screens\GameOverScreen.cpp SRAC\UI\Screens\GameScreen.cpp SRAC\UI\Screens\LoadingScreen.cpp SRAC\UI\Screens\PauseScreen.cpp SRAC\UI\Screens\Screen.cpp SRAC\UI\Screens\SettingsScreen.cpp SRAC\UI\Text\Font.cpp SRAC\UI\Text\Text.cpp SRAC\UI\UIEventHandler.cpp SRAC\UI\UIManager.cpp SRAC\Utilities\BasicString.cpp SRAC\Utilities\Helpers.cpp SRAC\Utilities\Maps\StringMap.cpp SRAC\Utilities\NSISFileOutput.cpp SRAC\Utilities\Pools\ScreenPool.cpp SRAC\Utilities\RenderColour.cpp
+         Main.cpp
+         pch.cpp
+         Animation.cpp
+         Animator.cpp
+         Audio.cpp
+         AudioManager.cpp
+         Channel.cpp
+         SoundController.cpp
+         Collider.cpp
+         QuadCollider.cpp
+         DebugDraw.cpp
+         FrameRateController.cpp
+         Logging.cpp
+         MemTrack.cpp
+         PerformanceProfiler.cpp
+         UIEditor.cpp
+         Dispatcher.cpp
+         Camera.cpp
+         CameraShake.cpp
+         GameData.cpp
+         LoadingBar.cpp
+         LoadingManager.cpp
+         GameController.cpp
+         GameSetup.cpp
+         GameState.cpp
+         PauseState.cpp
+         PreGameState.cpp
+         Renderer.cpp
+         RenderManager.cpp
+         RenderPacket.cpp
+         Texture.cpp
+         TextureManager.cpp
+         TextureMap.cpp
+         TileSet.cpp
+         Button.cpp
+         Cursor.cpp
+         InputManager.cpp
+     1>c:\users\saman\documents\programming\games\sdl\entcompsys\gravityproject\gravityproject\srac\input\inputmanager.cpp(87): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+                 with
+                 [
+                     T=float
+                 ]
+         Physics.cpp
+         Attributes.cpp
+         FileManager.cpp
+         StatReader.cpp
+         TextFileReader.cpp
+         XMLNode.cpp
+         XMLParser.cpp
+     1>c:\users\saman\documents\programming\games\sdl\entcompsys\gravityproject\gravityproject\sdl2\rapidxml\include\rapidxml_utils.hpp(40): warning C4244: 'initializing': conversion from 'std::streamoff' to 'size_t', possible loss of data
+         c:\users\saman\documents\programming\games\sdl\entcompsys\gravityproject\gravityproject\sdl2\rapidxml\include\rapidxml_utils.hpp(28): note: while compiling class template member function 'rapidxml::file<char>::file(const char *)'
+         c:\users\saman\documents\programming\games\sdl\entcompsys\gravityproject\gravityproject\srac\system\files\xmlparser.cpp(13): note: see reference to function template instantiation 'rapidxml::file<char>::file(const char *)' being compiled
+         c:\users\saman\documents\programming\games\sdl\entcompsys\gravityproject\gravityproject\srac\system\files\xmlparser.cpp(13): note: see reference to class template instantiation 'rapidxml::file<char>' being compiled
+         c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(232): note: see reference to function template instantiation 'void std::_Uninitialized_backout_al<_FwdIt,_Alloc>::_Emplace_back<std::experimental::filesystem::v1::path>(std::experimental::filesystem::v1::path &&)' being compiled
+                 with
+                 [
+                     _FwdIt=std::experimental::filesystem::v1::path *,
+                     _Alloc=std::allocator<std::experimental::filesystem::v1::path>
+                 ]
+         c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(232): note: see reference to function template instantiation 'void std::_Uninitialized_backout_al<_FwdIt,_Alloc>::_Emplace_back<std::experimental::filesystem::v1::path>(std::experimental::filesystem::v1::path &&)' being compiled
+                 with
+                 [
+                     _FwdIt=std::experimental::filesystem::v1::path *,
+                     _Alloc=std::allocator<std::experimental::filesystem::v1::path>
+                 ]
+         c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(259): note: see reference to function template instantiation '_FwdIt std::_Uninitialized_move_al_unchecked<_Ty*,_Ty*,_Alloc>(_InIt,const _InIt,const _FwdIt,_Alloc &,std::_General_ptr_iterator_tag,std::_Any_tag)' being compiled
+                 with
+                 [
+                     _FwdIt=std::experimental::filesystem::v1::path *,
+                     _Ty=std::experimental::filesystem::v1::path,
+                     _Alloc=std::allocator<std::experimental::filesystem::v1::path>,
+                     _InIt=std::experimental::filesystem::v1::path *
+                 ]
+         c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1828): note: see reference to function template instantiation '_FwdIt *std::_Uninitialized_move<std::experimental::filesystem::v1::path*,std::experimental::filesystem::v1::path*,std::allocator<_Ty>>(const _InIt,const _InIt,_FwdIt,_Alloc &)' being compiled
+                 with
+                 [
+                     _FwdIt=std::experimental::filesystem::v1::path *,
+                     _Ty=std::experimental::filesystem::v1::path,
+                     _InIt=std::experimental::filesystem::v1::path *,
+                     _Alloc=std::allocator<std::experimental::filesystem::v1::path>
+                 ]
+         c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1827): note: while compiling class template member function 'std::experimental::filesystem::v1::path *std::vector<std::experimental::filesystem::v1::path,std::allocator<_Ty>>::_Umove(std::experimental::filesystem::v1::path *,std::experimental::filesystem::v1::path *,std::experimental::filesystem::v1::path *)'
+                 with
+                 [
+                     _Ty=std::experimental::filesystem::v1::path
+                 ]
+         c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(970): note: see reference to function template instantiation 'std::experimental::filesystem::v1::path *std::vector<std::experimental::filesystem::v1::path,std::allocator<_Ty>>::_Umove(std::experimental::filesystem::v1::path *,std::experimental::filesystem::v1::path *,std::experimental::filesystem::v1::path *)' being compiled
+                 with
+                 [
+                     _Ty=std::experimental::filesystem::v1::path
+                 ]
+         c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\experimental\filesystem(2192): note: see reference to class template instantiation 'std::vector<std::experimental::filesystem::v1::path,std::allocator<_Ty>>' being compiled
+                 with
+                 [
+                     _Ty=std::experimental::filesystem::v1::path
+                 ]
+         Window.cpp
+         UIBox.cpp
+         UIButton.cpp
+         UIElement.cpp
+         UISlider.cpp
+         UISwitch.cpp
+         UITextBox.cpp
+         UIWindow.cpp
+         ScreenBuilder.cpp
+         ScreenController.cpp
+         ScreenLayers.cpp
+         ScreenReader.cpp
+         GameOverScreen.cpp
+         GameScreen.cpp
+         LoadingScreen.cpp
+         PauseScreen.cpp
+         Screen.cpp
+         SettingsScreen.cpp
+         Font.cpp
+         Text.cpp
+         UIEventHandler.cpp
+         UIManager.cpp
+         BasicString.cpp
+         Helpers.cpp
+     1>c:\users\saman\documents\programming\games\sdl\entcompsys\gravityproject\gravityproject\srac\utilities\helpers.cpp(17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\saman\documents\programming\games\sdl\entcompsys\gravityproject\gravityproject\srac\utilities\helpers.cpp(18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+         StringMap.cpp
+         NSISFileOutput.cpp
+         ScreenPool.cpp
+         RenderColour.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Saman\Documents\Programming\Games\SDL\EntCompSys\GravityProject\Debug\GravityProject.exe" /INCREMENTAL /NOLOGO SDL2main.lib SDL2.lib SDL2_image.lib SDL2_mixer.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\Saman\Documents\Programming\Games\SDL\EntCompSys\GravityProject\Debug\GravityProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Saman\Documents\Programming\Games\SDL\EntCompSys\GravityProject\Debug\GravityProject.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\pch.obj
+         Debug\Animation.obj
+         Debug\Animator.obj
+         Debug\Audio.obj
+         Debug\AudioManager.obj
+         Debug\Channel.obj
+         Debug\SoundController.obj
+         Debug\Collider.obj
+         Debug\QuadCollider.obj
+         Debug\DebugDraw.obj
+         Debug\FrameRateController.obj
+         Debug\Logging.obj
+         Debug\MemTrack.obj
+         Debug\PerformanceProfiler.obj
+         Debug\UIEditor.obj
+         Debug\Dispatcher.obj
+         Debug\Camera.obj
+         Debug\CameraShake.obj
+         Debug\GameData.obj
+         Debug\LoadingBar.obj
+         Debug\LoadingManager.obj
+         Debug\GameController.obj
+         Debug\GameSetup.obj
+         Debug\GameState.obj
+         Debug\PauseState.obj
+         Debug\PreGameState.obj
+         Debug\Renderer.obj
+         Debug\RenderManager.obj
+         Debug\RenderPacket.obj
+         Debug\Texture.obj
+         Debug\TextureManager.obj
+         Debug\TextureMap.obj
+         Debug\TileSet.obj
+         Debug\Button.obj
+         Debug\Cursor.obj
+         Debug\InputManager.obj
+         Debug\Physics.obj
+         Debug\Attributes.obj
+         Debug\FileManager.obj
+         Debug\StatReader.obj
+         Debug\TextFileReader.obj
+         Debug\XMLNode.obj
+         Debug\XMLParser.obj
+         Debug\Window.obj
+         Debug\UIBox.obj
+         Debug\UIButton.obj
+         Debug\UIElement.obj
+         Debug\UISlider.obj
+         Debug\UISwitch.obj
+         Debug\UITextBox.obj
+         Debug\UIWindow.obj
+         Debug\ScreenBuilder.obj
+         Debug\ScreenController.obj
+         Debug\ScreenLayers.obj
+         Debug\ScreenReader.obj
+         Debug\GameOverScreen.obj
+         Debug\GameScreen.obj
+         Debug\LoadingScreen.obj
+         Debug\PauseScreen.obj
+         Debug\Screen.obj
+         Debug\SettingsScreen.obj
+         Debug\Font.obj
+         Debug\Text.obj
+         Debug\UIEventHandler.obj
+         Debug\UIManager.obj
+         Debug\BasicString.obj
+         Debug\Helpers.obj
+         Debug\StringMap.obj
+         Debug\NSISFileOutput.obj
+         Debug\ScreenPool.obj
+         Debug\RenderColour.obj
+         GravityProject.vcxproj -> C:\Users\Saman\Documents\Programming\Games\SDL\EntCompSys\GravityProject\Debug\GravityProject.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\GravityProject.tlog\unsuccessfulbuild".
+         Touching "Debug\GravityProject.tlog\GravityProject.lastbuildstate".
+     1>Done Building Project "C:\Users\Saman\Documents\Programming\Games\SDL\EntCompSys\GravityProject\GravityProject\GravityProject.vcxproj" (Build target(s)).
+
+Project Performance Summary:
+    176778 ms  C:\Users\Saman\Documents\Programming\Games\SDL\EntCompSys\GravityProject\GravityProject\GravityProject.vcxproj   1 calls
+              176778 ms  Build                                      1 calls
+
+Target Performance Summary:
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  ComputeLegacyManifestEmbedding             1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  AfterLink                                  1 calls
+        0 ms  _Link                                      1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  _BuildLinkAction                           1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  PrepareForRun                              1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  Build                                      1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        1 ms  _PrepareForReferenceResolution             1 calls
+        1 ms  ComputeCLInputPDBName                      1 calls
+        1 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        1 ms  GetReferenceAssemblyPaths                  1 calls
+        1 ms  ComputeManifestInputsTargets               1 calls
+        1 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        1 ms  GetCopyToOutputDirectoryItems              1 calls
+        1 ms  ResolveAssemblyReferences                  1 calls
+        1 ms  _CheckForCompileOutputs                    1 calls
+        1 ms  ComputeLinkInputsFromProject               1 calls
+        1 ms  _SplitProjectReferencesByFileExistence     1 calls
+        1 ms  GetResolvedWinMD                           1 calls
+        1 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        2 ms  _PrepareForBuild                           1 calls
+        2 ms  DoLinkOutputFilesMatch                     1 calls
+        2 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        2 ms  ComputeLinkSwitches                        1 calls
+        2 ms  RegisterOutput                             1 calls
+        2 ms  ComputeReferenceCLInput                    1 calls
+        2 ms  AssignTargetPaths                          1 calls
+        2 ms  _CheckWindowsSDKInstalled                  1 calls
+        2 ms  MakeDirsForResourceCompile                 1 calls
+        2 ms  SplitResourcesByCulture                    1 calls
+        2 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        3 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+        3 ms  MakeDirsForLink                            1 calls
+        3 ms  FixupCLCompileOptions                      1 calls
+        3 ms  MakeDirsForCl                              1 calls
+        4 ms  AssignProjectConfiguration                 1 calls
+        5 ms  FinalizeBuildStatus                        1 calls
+        7 ms  ComputeCLOutputs                           1 calls
+       12 ms  InitializeBuildStatus                      1 calls
+       14 ms  CopyFileToFolders                          1 calls
+       15 ms  SetTelemetryEnvironmentVariables           1 calls
+       18 ms  PrepareForBuild                            1 calls
+       24 ms  WarnCompileDuplicatedFilename              1 calls
+       37 ms  ResolveProjectReferences                   1 calls
+       41 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+     3454 ms  Link                                       1 calls
+    173081 ms  ClCompile                                  1 calls
+
+Build succeeded.
+
+       "C:\Users\Saman\Documents\Programming\Games\SDL\EntCompSys\GravityProject\GravityProject\GravityProject.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         c:\users\saman\documents\programming\games\sdl\entcompsys\gravityproject\gravityproject\srac\input\inputmanager.cpp(87): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+         c:\users\saman\documents\programming\games\sdl\entcompsys\gravityproject\gravityproject\sdl2\rapidxml\include\rapidxml_utils.hpp(40): warning C4244: 'initializing': conversion from 'std::streamoff' to 'size_t', possible loss of data
+         c:\users\saman\documents\programming\games\sdl\entcompsys\gravityproject\gravityproject\srac\utilities\helpers.cpp(17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+         c:\users\saman\documents\programming\games\sdl\entcompsys\gravityproject\gravityproject\srac\utilities\helpers.cpp(18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:02:56.76

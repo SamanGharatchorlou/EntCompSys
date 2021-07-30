@@ -1,2 +1,7 @@
 # Compiled Object files
 *.obj
+*.tlog
+
+GravityProject/Release
+GravityProject/Debug
+GravityProject/.vs
